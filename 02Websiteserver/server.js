@@ -19,8 +19,8 @@ http.createServer((req, res) => {
     var myuri = url.parse(req.url).pathname;
     var filename = path.join(process.cwd(), unescape(myuri));
     console.log('File you are looking for is:' + filename);
-
     var loadFile;
+
     try {
         loadFile = fs.lstatSync(filename);
     } catch (error) {
