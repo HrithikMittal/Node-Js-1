@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 
 app.get('/', function (req, res) {
-    res.json({
-        message: "Hello World"
+    // res.status(200).json({message: "Hello World"});
+    res.status(500).json({
+        message: "Error"
     });
 });
 
@@ -41,6 +42,14 @@ app.get('/ab*cd', function (req, res) {
 
 app.get('/ab(cd)?e', function (req, res) {
     res.send('ab(cd)?e')
+});
+
+app.get('/user/:id/stats/:status_id', function (req, res) {
+    res.send(req.params);
+});
+
+app.get('/flights/:from-:to', function (req, res) {
+    res.send(req.params);
 });
 
 port = process.env.PORT || 3000;
