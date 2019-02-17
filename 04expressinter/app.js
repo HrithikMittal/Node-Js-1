@@ -9,6 +9,7 @@ var myconsolelog = function (req, res, next) {
 
 // Middleware second
 var servertime = function (req, res, next) {
+    console.log('I am 2nd middleware');
     req.requestTime = Date.now();
     next();
 };
