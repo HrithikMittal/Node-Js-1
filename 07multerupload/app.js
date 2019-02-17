@@ -7,9 +7,10 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
+// multer settings 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, '/public/myupload')
+        cb(null, './public/myupload')
     },
     filename: function (req, file, cb) {
         cb(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname));
@@ -17,9 +18,7 @@ var storage = multer.diskStorage({
 });
 var upload = multer({
     storage: storage,
-}).single('myimage');
-
-
+}).single('profilepic');
 
 //set for ejs
 app.set('view engine', "ejs");
@@ -29,6 +28,22 @@ app.use(express.static('./public'));
 app.get('/', function (req, res) {
     // res.send("Welcome to uploader");
     res.render("index");
+});
+
+//Desc
+app.post('/upload', function (req, res) {
+    upload(req, res, function (error) {
+        if (error) {
+            res.render('index', {
+                message: error
+            });
+        } else {
+            res.render('index', {
+                message: "Successfully upload",
+                filename: `myupload/${req.file.filename}`
+            });
+        }
+    });
 });
 
 app.listen(port, function (req, res) {

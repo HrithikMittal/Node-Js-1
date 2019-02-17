@@ -26,20 +26,19 @@
 
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://images.pexels.com/photos/1144256/pexels-photo-1144256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+            <img class="card-img-top" src="<%= typeof filename == 'undefined'? 'https://images.pexels.com/photos/1144256/pexels-photo-1144256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350': filename %>"
                 alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Multer File Uploader</h5>
-                <p class="card-text">Multer is a file/image uploader, used a lot with node application. It's really
-                    simple to use.</p>
-
+                <p class="card-text">Multer is a file/image uploader, used a lot with node application. It'
+                    s really simple to use.</p>
                 <form class="" action="/upload" method="POST" enctype="multipart/form-data">
                     <div class="custom-file">
                         <input type="file" name="profilepic" class="custom-file-input" id="validatedCustomFile"
                             required>
                         <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
                         <p class="red">
-                            Error messages will go here
+                            <%= typeof message == 'undefined'? '': message %>
                         </p>
                     </div>
                     <br />
