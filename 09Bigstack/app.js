@@ -37,7 +37,7 @@ app.get('/', function (req, res) {
 // acutual route
 app.use('/api/auth', auth);
 app.use('/api/profile', profile);
-appp.use('/api/question', ques);
+app.use('/api/question', ques);
 
 
 
