@@ -1,5 +1,5 @@
 # Node-Js
-![Node Js](https://en.wikipedia.org/wiki/Node.js#/media/File:Node.js_logo.svg)
+![Node Js](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1024px-Node.js_logo.svg.png)
 <h1>What is Node.js?</h1>
 <ul>
   <li>Node.js is an open source server environment</li>
