@@ -7,7 +7,7 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-// multer settings 
+// multer settings for refering go to the npm packages
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, './public/myupload')
