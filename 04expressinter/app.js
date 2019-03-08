@@ -24,7 +24,7 @@ app.get('/', function (req, res) {
 });
 
 
-
+// with the different format of consoling to the port
 app.listen(port, function () {
     console.log(`Server is running on port ${port}`);
 });
