@@ -4,12 +4,12 @@ var bodyparser = require('body-parser');
 
 var port = process.env.PORT || 3000;
 
-// Middleware
+// Middleware for  complete body
 app.use(bodyparser.urlencoded({
     extended: false
 }));
 
-// Middleware 
+// Middleware for login
 app.use('/login', express.static(__dirname + "/public"));
 
 app.get('/', function (req, res) {
