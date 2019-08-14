@@ -15,5 +15,17 @@
   <li>Pipes</li>
   <li>Events</li>
   <li>Module Patterns</li>
+  <li>Generators</li>
+  <li>Middleware</li>
+  <li>Async/Await</li>
+  <li>Axios</li>
+  <li>Work Threads</li>
+  <li>Global Process module</li>
+  <li>Design pattern in Node.Js</li>
+  <li>Design pattern for asynchronous Tasks</li>
+  <li>Understanding Node.Js module pattern</li>
+  <li>Design patterns with events</li>
+  
+  
   
 </ul>
