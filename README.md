@@ -1,5 +1,5 @@
 # Node-Js
-![Node Js](https://hackernoon.com/hn-images/1*mr4iRSqGzoCev0HNwR3oiA.png=200x200)
+![Node Js](https://hackernoon.com/hn-images/1*mr4iRSqGzoCev0HNwR3oiA.png = 200x200)
 <h1>What is Node.js?</h1>
 <ul>
   <li>Node.js is an open source server environment</li>
