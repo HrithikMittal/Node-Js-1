@@ -9,5 +9,11 @@
 </ul>
 <h1>How to Use it?</h1>
 <ul>
-  <li></li>
+  <li>Callbacks</li>
+  <li>Promises</li>
+  <li>Streams</li>
+  <li>Pipes</li>
+  <li>Events</li>
+  <li>Module Patterns</li>
+  
 </ul>
