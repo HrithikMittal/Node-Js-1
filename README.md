@@ -1,10 +1,11 @@
 # Node-Js
+
 <img src="https://hackernoon.com/hn-images/1*mr4iRSqGzoCev0HNwR3oiA.png" width="500">
 <h1>What is Node.js?</h1>
 <ul>
   <li>Node.js is an open source server environment</li>
   <li>Node.js is free</li>
-  <li>Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)</li>
+  <li>Node.js runs on various platforms like Windows, Linux, Unix, Mac OS X, etc.</li>
   <li>Node.js uses JavaScript on the server</li>
 </ul>
 <h1>How to Use it?</h1>
@@ -27,8 +28,11 @@
   <li>Design patterns with events</li>
   <li>Memory management in Node.Js</li>
   <li>Using Http module in Node.Js</li>
+  <li>Working with Node.Js File System module.</li>
   <li>Working with Node.Js File System module</li>
   
-  
+ Node JS 
 </ul>
 congratulations 
+Author, Adhikansh Mittal
+
