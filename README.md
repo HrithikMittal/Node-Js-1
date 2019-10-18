@@ -5,7 +5,7 @@
 <ul>
   <li>Node.js is an open source server environment</li>
   <li>Node.js is free</li>
-  <li>Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)</li>
+  <li>Node.js runs on various platforms like Windows, Linux, Unix, Mac OS X, etc.</li>
   <li>Node.js uses JavaScript on the server</li>
 </ul>
 <h1>How to Use it?</h1>
@@ -32,4 +32,7 @@
   
   
 </ul>
+
 Congratulations
+Author, Adhikansh Mittal
+
