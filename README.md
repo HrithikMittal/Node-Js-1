@@ -5,7 +5,7 @@
 <ul>
   <li>Node.js is an open source server environment</li>
   <li>Node.js is free</li>
-  <li>Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)</li>
+  <li>Node.js runs on various platforms like Windows, Linux, Unix, Mac OS X, etc.</li>
   <li>Node.js uses JavaScript on the server</li>
 </ul>
 <h1>How to Use it?</h1>
@@ -29,6 +29,11 @@
   <li>Memory management in Node.Js</li>
   <li>Using Http module in Node.Js</li>
   <li>Working with Node.Js File System module.</li>
+  <li>Working with Node.Js File System module</li>
   
- 
+ Node JS 
 </ul>
+
+Congratulations
+Author, Adhikansh Mittal
+
