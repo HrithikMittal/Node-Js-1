@@ -30,9 +30,4 @@
   <li>Using Http module in Node.Js</li>
   <li>Working with Node.Js File System module.</li>
   <li>Working with Node.Js File System module</li>
-  
- Node JS 
-</ul>
-
-congratulations 
-Author, Adhikansh Mittal
+ </ul>
